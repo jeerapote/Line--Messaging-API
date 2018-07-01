@@ -27,7 +27,7 @@ if (!is_null($StrGet)) {
 	$url = 'https://api.line.me/v2/bot/message/push';
 	$data = [
   		
-		'to' => $Gid,//Cd301c62d855132ea1bcf698eb38532ed
+		'to' => $Gid,
 		'messages' => [$messages]
 		];
 	$post = json_encode($data);
