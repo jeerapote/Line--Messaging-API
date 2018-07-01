@@ -9,8 +9,8 @@ function t1($tt1)
 		];
 	return $messages;
 }
-$Accesstoken ='vIqVV9lNX5yNkf7r4nm+FFAesNeaypSuYC/OOW9LOiRptDrt0/ELtOJekuhmabamyn5ssrtDODisO/XE2wvauE7MTr1C0xIY84aHbRZRQDRtEojxs7UtkvssK7Y4eS4Xj/r+krB7u9ueoZVAjmOvMwdB04t89/1O/w1cDnyilFU=';
-$Gid ='Cbba671d3c1043d9d231a951b25edc69b';
+$Accesstoken ='xxx';
+$Gid ='xx';
 $StrGet = 'hello test';
 //$StrGet = 'TEST';
 //$messagesToken = t1($A_Token);
@@ -27,7 +27,7 @@ if (!is_null($StrGet)) {
 	$url = 'https://api.line.me/v2/bot/message/push';
 	$data = [
   		
-		'to' => $Gid,//Cd301c62d855132ea1bcf698eb38532ed
+		'to' => $Gid,
 		'messages' => [$messages]
 		];
 	$post = json_encode($data);
