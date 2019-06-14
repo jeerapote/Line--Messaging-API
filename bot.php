@@ -10,8 +10,8 @@ if (!is_null($events['events'])) {
   foreach ($events['events'] as $event) {
     // Reply only when Follow me.
 	  if ($event['type'] == 'message'){
-		  $gentext = $event['source']['userId'];
-			//$gentext = "ขอบคุณที่ติดตามเรา";
+		  //$gentext = $event['source']['userId'];
+			$gentext = "ขอบคุณที่ติดตามเรา";
 			// Get Replytoken
 		        $replyToken = $event['replyToken'];
 		        
