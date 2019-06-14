@@ -72,5 +72,5 @@ if (!is_null($events['events'])) {
 		}
   }
 }
-echo "TEST lottery";
+echo "Forex Notif";
 ?>
