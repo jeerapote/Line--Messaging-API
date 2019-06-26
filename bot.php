@@ -72,5 +72,5 @@ if (!is_null($events['events'])) {
 		}
   }
 }
-echo "Forex Notif";
+echo "Forex Notif1";
 ?>
